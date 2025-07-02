@@ -7,7 +7,7 @@ class Window(QWidget):
         self.resize(500,500)
         self.setUpUi()
     def setUpUi(self):
-        pass
+        print(123)
 if __name__ =="__main__":
     app = QApplication(sys.argv)
     window = Window()
